@@ -1,0 +1,21 @@
+[Header]
+EMFileVersion,4
+Experiment Name,NovaSeq_01012021
+
+[Reads]
+29
+93
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,Index,Sample_Project,Description
+PBMC_RNAb1,PBMC_RNAb1,,,SI-GA-D5,CTCGTCAC,TL001,Homo_sapiens
+PBMC_RNAb1,PBMC_RNAb1,,,SI-GA-D5,GATCAGCA,TL001,Homo_sapiens
+PBMC_RNAb1,PBMC_RNAb1,,,SI-GA-D5,ACAACAGG,TL001,Homo_sapiens
+PBMC_RNAb1,PBMC_RNAb1,,,SI-GA-D5,TGGTGTTT,TL001,Homo_sapiens
+moDCs_J3rep1,moDCs_J3rep1,,,v2AD22,CGTACTAG,ATAC_moDCs_AR,Homo_sapiens
+moDCs_J3rep2,moDCs_J3rep2,,,v2AD23,AGGCAGAA,ATAC_moDCs_AR,Homo_sapiens
+moDCs_J3rep3,moDCs_J3rep3,,,v2AD24,TCCTGAGC,ATAC_moDCs_AR,Homo_sapiens
+moDCs_J7rep1,moDCs_J7rep1,,,v2AD25,GGACTCCT,ATAC_moDCs_AR,Homo_sapiens
+moDCs_J7rep2,moDCs_J7rep2,,,v2AD26,TAGGCATG,ATAC_moDCs_AR,Homo_sapiens
+moDCs_J7rep3,moDCs_J7rep3,,,v2AD27,CTCTCTAC,ATAC_moDCs_AR,Homo_sapiens
+
