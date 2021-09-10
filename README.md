@@ -5,7 +5,7 @@ Pour Nicolas Chapelle
 
 ### En sortie de séquençage, on a des fichiers BCL qu'on veut transformer en FASTQ. Il existe deux méthodes :
 
-## mkfastq 
+## [mkfastq](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/mkfastq)
 Nécessite de créer le fichier **index.csv**
 
 ## bcl2fastq 
@@ -15,7 +15,7 @@ Nécessite de créer le fichier **index_illu.csv**
 
 ### Puis on utilise les FASTQ pour aligner, démultiplexer les reads, compter l'expression avec cellranger count :
 
-## cellranger count (V4,V5) 
+## [cellranger count](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/count) (V4,V5) 
 requires **library.csv** and **featureindex.csv** when using antibody labelling
 
 ***
