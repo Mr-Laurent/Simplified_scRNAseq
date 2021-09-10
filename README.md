@@ -35,18 +35,18 @@ Projet1/
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ barcodes.tsv.gz   
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ features.tsv.gz    
 
-Mon script R "The "PartOne.R" est entièrement automatisé:
--charge la matrice d'expression
--seuil pour garder les gènes exprimés dans >3 cells
--seuil pour garder les cellules avec >200 gènes, <10% mito gènes
--charger la matrice de comptes HTO et garder les cellules communes à la matrice de compte d'ARNs
--log normalise par un facteur 10000 et scale les data d'ARN, récupère les top variable genes
--transforme les data HTO par un log ratio centré
--demultiplexage des HTO par MULTIseqDemux _( /!\ si les résultats ne sont pas bons, tenter avec HTOdemux)_
--garde les singlets
--transforme les data ADT par un log ratio centré
--enlève les cellules avec un total read count ou unnombre de gènes plus de deux fois la médiane, pour supprimer les doublets potentiels _( /!\ si autre type cellulaire que des PBMC, il est préférable de savoir si il y a une forte hétérogénéité d'expression entre les types cellulaires présents avant d'utiliser ce seuil)_
--réduction de dimensions en PCA
--decision sur le nombre de PC à utiliser pour la suite, projection en UMAP
--clustree dessine un arbre du nombre de cluster par resolutions, pour aider à décider du nombre de cluster optimal
+Mon script R "The "PartOne.R" est entièrement automatisé:  
+-charge la matrice d'expression  
+-seuil pour garder les gènes exprimés dans >3 cells  
+-seuil pour garder les cellules avec >200 gènes, <10% mito gènes  
+-charger la matrice de comptes HTO et garder les cellules communes à la matrice de compte d'ARNs  
+-log normalise par un facteur 10000 et scale les data d'ARN, récupère les top variable genes  
+-transforme les data HTO par un log ratio centré  
+-demultiplexage des HTO par MULTIseqDemux _( /!\ si les résultats ne sont pas bons, tenter avec HTOdemux)_  
+-garde les singlets  
+-transforme les data ADT par un log ratio centré  
+-enlève les cellules avec un total read count ou unnombre de gènes plus de deux fois la médiane, pour supprimer les doublets potentiels _( /!\ si autre type cellulaire que des PBMC, il est préférable de savoir si il y a une forte hétérogénéité d'expression entre les types cellulaires présents avant d'utiliser ce seuil)_  
+-réduction de dimensions en PCA  
+-decision sur le nombre de PC à utiliser pour la suite, projection en UMAP  
+-clustree dessine un arbre du nombre de cluster par resolutions, pour aider à décider du nombre de cluster optimal  
 
