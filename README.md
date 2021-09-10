@@ -24,16 +24,16 @@ requires **library.csv** and **featureindex.csv** when using antibody labelling
 
 En sortie de cellranger on a ces outputs à utiliser :
 
-Projet1/  
-⠀⠀⠀|___ outs/
-           |___ raw_feature_bc_matrix/
-           ⠀⠀⠀⠀⠀⠀⠀⠀⠀|___ matrix.mtx.gz  
-⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ barcodes.tsv.gz 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ features.tsv.gz 
-           |___ filtered_feature_bc_matrix/
-⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ matrix.mtx.gz  
-⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ barcodes.tsv.gz 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ features.tsv.gz  
+Projet1/    
+-⠀⠀|___ outs/  
+- - |___ raw_feature_bc_matrix/  
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀|___ matrix.mtx.gz    
+⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ barcodes.tsv.gz   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ features.tsv.gz   
+- -  |___ filtered_feature_bc_matrix/  
+⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ matrix.mtx.gz    
+⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ barcodes.tsv.gz   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀           |___ features.tsv.gz    
 
 Mon script R "The "PartOne.R" est entièrement automatisé:
 -charge la matrice d'expression
